@@ -1,0 +1,8 @@
+PARAMETERS:
+Decay Rate: 0.1
+Period Type: day
+Period Amount: 1
+
+RESULTS:
+
+ERROR OCCURRED: 'topic'

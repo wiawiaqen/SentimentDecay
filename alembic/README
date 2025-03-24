@@ -1,0 +1,90 @@
+# Alembic Migrations Guide
+
+This document provides instructions for managing database migrations using Alembic in the project.
+
+## Overview
+
+Alembic is a lightweight database migration tool for SQLAlchemy. It allows you to version control your database schema and apply changes incrementally.
+
+## Common Commands
+
+### 1. Create a New Migration
+To create a new migration, use the following command:
+```
+alembic revision --autogenerate -m "Migration message"
+```
+- Replace `"Migration message"` with a meaningful description of the changes (e.g., "Add topic columns to articles table").
+
+### 2. Apply Migrations
+To apply the latest migrations to the database, run:
+```
+alembic upgrade head
+```
+
+### 3. Downgrade Migrations
+To revert the last migration, use:
+```
+alembic downgrade -1
+```
+
+### 4. Check Current Migration State
+To check the current migration version applied to the database, run:
+```
+alembic current
+```
+
+## Configuration
+
+### Connection String
+The database connection string is defined in the following locations:
+- `data/get_news/database_connection.py`: Contains the logic to establish a connection to the database.
+- `alembic.ini`: Specifies the connection string for Alembic migrations.
+
+Ensure that the connection string in `alembic.ini` matches the one used in your application.
+
+### Example Connection String
+```ini
+sqlalchemy.url = postgresql+psycopg2://user:password@localhost/dbname
+```
+
+## Adding a New Column to the Schema
+
+1. Update the SQLAlchemy model in `data/models.py` to include the new column.
+2. Generate a new migration script:
+   ```
+   alembic revision --autogenerate -m "Add new column"
+   ```
+3. Apply the migration:
+   ```
+   alembic upgrade head
+   ```
+
+## Example: Adding Topic Columns
+
+To add `topic` and `topic_probability` columns to the `articles` table:
+1. Update the `Article` model in `data/models.py`:
+   ```python
+   topic = Column(String, nullable=True)
+   topic_probability = Column(Float, nullable=True)
+   ```
+2. Generate the migration:
+   ```
+   alembic revision --autogenerate -m "Add topic columns to articles table"
+   ```
+3. Apply the migration:
+   ```
+   alembic upgrade head
+   ```
+
+## Troubleshooting
+
+- **Error: `No changes detected`**
+  Ensure that the SQLAlchemy models are correctly updated and Alembic is configured to detect them.
+
+- **Error: `Connection failed`**
+  Verify that the connection string in `alembic.ini` is correct and the database server is running.
+
+## Additional Resources
+
+- [Alembic Documentation](https://alembic.sqlalchemy.org/en/latest/)
+- [SQLAlchemy Documentation](https://docs.sqlalchemy.org/en/latest/)

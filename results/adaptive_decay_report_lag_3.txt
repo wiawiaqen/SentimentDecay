@@ -1,0 +1,4 @@
+Adaptive Decay Experiment Results:
+
+Correlation between adaptive decayed sentiment and price changes: 0.0152
+Results saved to results/adaptive_decay_experiment

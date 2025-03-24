@@ -1,0 +1,215 @@
+Top 5 Parameter Combinations with Highest Positive Correlation and Lowest Negative Correlation for Each Lag and Timeframe:
+
+Lag: 0
+  Timeframe: hour
+    Top 5 Positive Correlations:
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 1, Correlation: 0.1657
+      Decay Model: Exponential, Parameter: 0.3, Period Amount: 1, Correlation: 0.1656
+      Decay Model: Exponential, Parameter: 0.4, Period Amount: 1, Correlation: 0.1656
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 2, Correlation: 0.1654
+      Decay Model: Exponential, Parameter: 0.2, Period Amount: 1, Correlation: 0.1649
+    Top 5 Negative Correlations:
+      Decay Model: PowerLaw, Parameter: 0.5, Period Amount: 3, Correlation: -0.0198
+      Decay Model: Exponential, Parameter: 0.01, Period Amount: 3, Correlation: -0.0133
+      Decay Model: PowerLaw, Parameter: 0.5, Period Amount: 2, Correlation: -0.0113
+
+  Timeframe: day
+    Top 5 Positive Correlations:
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 1, Correlation: 0.1021
+      Decay Model: PowerLaw, Parameter: 1.5, Period Amount: 1, Correlation: 0.0912
+      Decay Model: Exponential, Parameter: 0.4, Period Amount: 1, Correlation: 0.0904
+      Decay Model: Exponential, Parameter: 0.3, Period Amount: 1, Correlation: 0.0731
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 2, Correlation: 0.0610
+    Top 5 Negative Correlations:
+      Decay Model: Exponential, Parameter: 0.01, Period Amount: 1, Correlation: -0.0675
+      Decay Model: Exponential, Parameter: 0.02, Period Amount: 2, Correlation: -0.0675
+      Decay Model: Exponential, Parameter: 0.05, Period Amount: 3, Correlation: -0.0673
+      Decay Model: Exponential, Parameter: 0.02, Period Amount: 1, Correlation: -0.0655
+      Decay Model: Exponential, Parameter: 0.02, Period Amount: 3, Correlation: -0.0652
+
+  Timeframe: week
+    Top 5 Negative Correlations:
+      Decay Model: Exponential, Parameter: 0.1, Period Amount: 1, Correlation: -0.0679
+      Decay Model: Exponential, Parameter: 0.2, Period Amount: 2, Correlation: -0.0679
+      Decay Model: Exponential, Parameter: 0.3, Period Amount: 3, Correlation: -0.0679
+      Decay Model: Exponential, Parameter: 0.2, Period Amount: 3, Correlation: -0.0673
+      Decay Model: Exponential, Parameter: 0.4, Period Amount: 3, Correlation: -0.0661
+
+Lag: 1
+  Timeframe: hour
+    Top 5 Positive Correlations:
+      Decay Model: Exponential, Parameter: 0.2, Period Amount: 1, Correlation: 0.0822
+      Decay Model: Exponential, Parameter: 0.3, Period Amount: 1, Correlation: 0.0822
+      Decay Model: Exponential, Parameter: 0.4, Period Amount: 1, Correlation: 0.0822
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 1, Correlation: 0.0822
+      Decay Model: Exponential, Parameter: 0.4, Period Amount: 2, Correlation: 0.0822
+    Top 5 Negative Correlations:
+      Decay Model: PowerLaw, Parameter: 0.5, Period Amount: 3, Correlation: -0.0326
+      Decay Model: PowerLaw, Parameter: 0.5, Period Amount: 2, Correlation: -0.0267
+      Decay Model: Exponential, Parameter: 0.01, Period Amount: 3, Correlation: -0.0261
+      Decay Model: PowerLaw, Parameter: 0.5, Period Amount: 1, Correlation: -0.0147
+      Decay Model: Exponential, Parameter: 0.01, Period Amount: 2, Correlation: -0.0040
+
+  Timeframe: day
+    Top 5 Positive Correlations:
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 1, Correlation: 0.0706
+      Decay Model: Exponential, Parameter: 0.4, Period Amount: 1, Correlation: 0.0632
+      Decay Model: PowerLaw, Parameter: 1.5, Period Amount: 1, Correlation: 0.0575
+      Decay Model: Exponential, Parameter: 0.3, Period Amount: 1, Correlation: 0.0501
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 2, Correlation: 0.0402
+    Top 5 Negative Correlations:
+      Decay Model: Exponential, Parameter: 0.05, Period Amount: 3, Correlation: -0.0708
+      Decay Model: Exponential, Parameter: 0.02, Period Amount: 1, Correlation: -0.0700
+      Decay Model: Exponential, Parameter: 0.01, Period Amount: 1, Correlation: -0.0690
+      Decay Model: Exponential, Parameter: 0.02, Period Amount: 2, Correlation: -0.0690
+      Decay Model: Exponential, Parameter: 0.05, Period Amount: 2, Correlation: -0.0674
+
+  Timeframe: week
+    Top 5 Negative Correlations:
+      Decay Model: Exponential, Parameter: 0.1, Period Amount: 1, Correlation: -0.0708
+      Decay Model: Exponential, Parameter: 0.2, Period Amount: 2, Correlation: -0.0708
+      Decay Model: Exponential, Parameter: 0.3, Period Amount: 3, Correlation: -0.0708
+      Decay Model: Exponential, Parameter: 0.4, Period Amount: 3, Correlation: -0.0703
+      Decay Model: Exponential, Parameter: 0.3, Period Amount: 2, Correlation: -0.0694
+
+Lag: 2
+  Timeframe: hour
+    Top 5 Positive Correlations:
+      Decay Model: Exponential, Parameter: 0.05, Period Amount: 1, Correlation: 0.1334
+      Decay Model: Exponential, Parameter: 0.1, Period Amount: 2, Correlation: 0.1334
+      Decay Model: Exponential, Parameter: 0.1, Period Amount: 3, Correlation: 0.1322
+      Decay Model: Exponential, Parameter: 0.2, Period Amount: 3, Correlation: 0.1321
+      Decay Model: Exponential, Parameter: 0.1, Period Amount: 1, Correlation: 0.1289
+    Top 5 Negative Correlations:
+      Decay Model: PowerLaw, Parameter: 0.5, Period Amount: 3, Correlation: -0.0070
+
+  Timeframe: day
+    Top 5 Positive Correlations:
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 1, Correlation: 0.1227
+      Decay Model: Exponential, Parameter: 0.4, Period Amount: 1, Correlation: 0.1139
+      Decay Model: PowerLaw, Parameter: 1.5, Period Amount: 1, Correlation: 0.1127
+      Decay Model: Exponential, Parameter: 0.3, Period Amount: 1, Correlation: 0.0985
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 2, Correlation: 0.0868
+    Top 5 Negative Correlations:
+      Decay Model: Exponential, Parameter: 0.01, Period Amount: 1, Correlation: -0.0604
+      Decay Model: Exponential, Parameter: 0.02, Period Amount: 2, Correlation: -0.0604
+      Decay Model: Exponential, Parameter: 0.02, Period Amount: 3, Correlation: -0.0598
+      Decay Model: Exponential, Parameter: 0.01, Period Amount: 2, Correlation: -0.0590
+      Decay Model: Exponential, Parameter: 0.01, Period Amount: 3, Correlation: -0.0581
+
+  Timeframe: week
+    Top 5 Negative Correlations:
+      Decay Model: Exponential, Parameter: 0.2, Period Amount: 3, Correlation: -0.0603
+      Decay Model: Exponential, Parameter: 0.05, Period Amount: 1, Correlation: -0.0599
+      Decay Model: Exponential, Parameter: 0.1, Period Amount: 2, Correlation: -0.0599
+      Decay Model: Exponential, Parameter: 0.1, Period Amount: 1, Correlation: -0.0592
+      Decay Model: Exponential, Parameter: 0.2, Period Amount: 2, Correlation: -0.0592
+
+Lag: 3
+  Timeframe: hour
+    Top 5 Positive Correlations:
+      Decay Model: Exponential, Parameter: 0.4, Period Amount: 1, Correlation: 0.2390
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 1, Correlation: 0.2390
+      Decay Model: Exponential, Parameter: 0.3, Period Amount: 1, Correlation: 0.2389
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 2, Correlation: 0.2389
+      Decay Model: Exponential, Parameter: 0.2, Period Amount: 1, Correlation: 0.2387
+
+  Timeframe: day
+    Top 5 Positive Correlations:
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 1, Correlation: 0.1793
+      Decay Model: PowerLaw, Parameter: 1.5, Period Amount: 1, Correlation: 0.1749
+      Decay Model: Exponential, Parameter: 0.4, Period Amount: 1, Correlation: 0.1634
+      Decay Model: Exponential, Parameter: 0.3, Period Amount: 1, Correlation: 0.1404
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 2, Correlation: 0.1249
+    Top 5 Negative Correlations:
+      Decay Model: Exponential, Parameter: 0.01, Period Amount: 3, Correlation: -0.0564
+      Decay Model: Exponential, Parameter: 0.01, Period Amount: 2, Correlation: -0.0558
+      Decay Model: Exponential, Parameter: 0.02, Period Amount: 3, Correlation: -0.0550
+      Decay Model: Exponential, Parameter: 0.01, Period Amount: 1, Correlation: -0.0526
+      Decay Model: Exponential, Parameter: 0.02, Period Amount: 2, Correlation: -0.0526
+
+  Timeframe: week
+    Top 5 Positive Correlations:
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 1, Correlation: 0.0241
+      Decay Model: PowerLaw, Parameter: 1.5, Period Amount: 1, Correlation: 0.0240
+      Decay Model: Exponential, Parameter: 0.4, Period Amount: 1, Correlation: 0.0090
+    Top 5 Negative Correlations:
+      Decay Model: Exponential, Parameter: 0.01, Period Amount: 1, Correlation: -0.0566
+      Decay Model: Exponential, Parameter: 0.01, Period Amount: 2, Correlation: -0.0566
+      Decay Model: Exponential, Parameter: 0.02, Period Amount: 2, Correlation: -0.0566
+      Decay Model: Exponential, Parameter: 0.01, Period Amount: 3, Correlation: -0.0566
+      Decay Model: Exponential, Parameter: 0.02, Period Amount: 3, Correlation: -0.0566
+
+Lag: 4
+  Timeframe: hour
+    Top 5 Positive Correlations:
+      Decay Model: Exponential, Parameter: 0.4, Period Amount: 1, Correlation: 0.1014
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 1, Correlation: 0.1014
+      Decay Model: Exponential, Parameter: 0.3, Period Amount: 1, Correlation: 0.1013
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 2, Correlation: 0.1011
+      Decay Model: Exponential, Parameter: 0.2, Period Amount: 1, Correlation: 0.1005
+    Top 5 Negative Correlations:
+      Decay Model: PowerLaw, Parameter: 0.5, Period Amount: 3, Correlation: -0.0259
+      Decay Model: PowerLaw, Parameter: 0.5, Period Amount: 2, Correlation: -0.0183
+      Decay Model: Exponential, Parameter: 0.01, Period Amount: 3, Correlation: -0.0167
+      Decay Model: PowerLaw, Parameter: 0.5, Period Amount: 1, Correlation: -0.0029
+
+  Timeframe: day
+    Top 5 Positive Correlations:
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 1, Correlation: 0.0518
+      Decay Model: Exponential, Parameter: 0.4, Period Amount: 1, Correlation: 0.0472
+      Decay Model: PowerLaw, Parameter: 1.5, Period Amount: 1, Correlation: 0.0456
+      Decay Model: Exponential, Parameter: 0.3, Period Amount: 1, Correlation: 0.0395
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 2, Correlation: 0.0334
+    Top 5 Negative Correlations:
+      Decay Model: Exponential, Parameter: 0.01, Period Amount: 1, Correlation: -0.0672
+      Decay Model: Exponential, Parameter: 0.02, Period Amount: 2, Correlation: -0.0672
+      Decay Model: Exponential, Parameter: 0.05, Period Amount: 3, Correlation: -0.0665
+      Decay Model: Exponential, Parameter: 0.02, Period Amount: 3, Correlation: -0.0654
+      Decay Model: Exponential, Parameter: 0.02, Period Amount: 1, Correlation: -0.0646
+
+  Timeframe: week
+    Top 5 Negative Correlations:
+      Decay Model: Exponential, Parameter: 0.1, Period Amount: 1, Correlation: -0.0673
+      Decay Model: Exponential, Parameter: 0.2, Period Amount: 2, Correlation: -0.0673
+      Decay Model: Exponential, Parameter: 0.3, Period Amount: 3, Correlation: -0.0673
+      Decay Model: Exponential, Parameter: 0.2, Period Amount: 3, Correlation: -0.0671
+      Decay Model: Exponential, Parameter: 0.05, Period Amount: 1, Correlation: -0.0657
+
+Lag: 5
+  Timeframe: hour
+    Top 5 Positive Correlations:
+      Decay Model: Exponential, Parameter: 0.3, Period Amount: 1, Correlation: 0.0379
+      Decay Model: Exponential, Parameter: 0.4, Period Amount: 1, Correlation: 0.0379
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 1, Correlation: 0.0379
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 2, Correlation: 0.0378
+      Decay Model: Exponential, Parameter: 0.2, Period Amount: 1, Correlation: 0.0375
+    Top 5 Negative Correlations:
+      Decay Model: PowerLaw, Parameter: 0.5, Period Amount: 3, Correlation: -0.0435
+      Decay Model: PowerLaw, Parameter: 0.5, Period Amount: 2, Correlation: -0.0395
+      Decay Model: Exponential, Parameter: 0.01, Period Amount: 3, Correlation: -0.0326
+      Decay Model: PowerLaw, Parameter: 0.5, Period Amount: 1, Correlation: -0.0312
+      Decay Model: Exponential, Parameter: 0.01, Period Amount: 2, Correlation: -0.0159
+
+  Timeframe: day
+    Top 5 Positive Correlations:
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 1, Correlation: 0.0255
+      Decay Model: Exponential, Parameter: 0.4, Period Amount: 1, Correlation: 0.0236
+      Decay Model: Exponential, Parameter: 0.3, Period Amount: 1, Correlation: 0.0182
+      Decay Model: PowerLaw, Parameter: 1.5, Period Amount: 1, Correlation: 0.0140
+      Decay Model: Exponential, Parameter: 0.5, Period Amount: 2, Correlation: 0.0130
+    Top 5 Negative Correlations:
+      Decay Model: Exponential, Parameter: 0.05, Period Amount: 3, Correlation: -0.0705
+      Decay Model: Exponential, Parameter: 0.02, Period Amount: 1, Correlation: -0.0695
+      Decay Model: Exponential, Parameter: 0.01, Period Amount: 1, Correlation: -0.0691
+      Decay Model: Exponential, Parameter: 0.02, Period Amount: 2, Correlation: -0.0691
+      Decay Model: Exponential, Parameter: 0.05, Period Amount: 2, Correlation: -0.0670
+
+  Timeframe: week
+    Top 5 Negative Correlations:
+      Decay Model: Exponential, Parameter: 0.1, Period Amount: 1, Correlation: -0.0706
+      Decay Model: Exponential, Parameter: 0.2, Period Amount: 2, Correlation: -0.0706
+      Decay Model: Exponential, Parameter: 0.3, Period Amount: 3, Correlation: -0.0706
+      Decay Model: Exponential, Parameter: 0.4, Period Amount: 3, Correlation: -0.0699
+      Decay Model: Exponential, Parameter: 0.3, Period Amount: 2, Correlation: -0.0689
+
